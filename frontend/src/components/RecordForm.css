@@ -1,0 +1,80 @@
+.record-form {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px; /* Limit the width */
+  margin: auto; /* Center the form on the page */
+}
+
+.record-form h1 {
+  color: #4CAF50;
+  text-align: center;
+}
+
+.record-form h2 {
+  color: #333;
+}
+
+.record-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.record-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Full width for button */
+}
+
+.record-form button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.statistics-container {
+  background-color: rgba(240, 248, 255, 0.9); /* Light background */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 600px; /* Limit the width */
+  margin: 20px auto; /* Center the container */
+}
+
+.statistics-container h2 {
+  color: #2c3e50; /* Darker text for the heading */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.statistics-container ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;           /* Remove padding */
+}
+
+.statistics-container li {
+  margin: 15px 0; /* Space between items */
+}
+
+.record-item {
+  background-color: #ecf0f1; /* Light gray background for records */
+  border: 1px solid #bdc3c7; /* Slight border for separation */
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.record-item:hover {
+  transform: scale(1.02); /* Slight scale effect on hover */
+}
+
+.record-item p {
+  margin: 5px 0; /* Spacing between text elements */
+  color: #34495e; /* Soft dark color for text */
+}
