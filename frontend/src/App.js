@@ -1,6 +1,6 @@
 import './App.css';
 import RecordForm from './components/RecordForm';
-
+import FetchStatisticsButton from './components/FetchStatisticsButton';
 const App = () => {
   return (
     <div className="App">
@@ -10,6 +10,7 @@ const App = () => {
       
       <main>
         <RecordForm />
+        <FetchStatisticsButton />
       </main>
       
       <footer className="App-footer">
