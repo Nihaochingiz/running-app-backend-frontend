@@ -1,6 +1,14 @@
 ## Compose sample application
 ### Go server with a Nginx proxy and a Postgres database
 
+# to run
+```bash
+git clone https://github.com/Nihaochingiz/running-app-backend-frontend
+cd running-app-backend-frontend
+docker compose up -d
+```
+
+
 Project structure:
 ```
 .
@@ -188,3 +196,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 - Be sure to replace `<repository-url>` and `<repository-directory>` with actual values to fit your repository.
 - Update the `docker-compose.yml` based on your specific requirements for the database configuration.
+
